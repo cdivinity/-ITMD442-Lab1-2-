@@ -11,7 +11,7 @@ h2, p {
   margin: 10px;
 }
 
-ul {
+.main-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,11 +19,11 @@ ul {
   background-color: #333333;
 }
 
-ul li {
+.main-nav ul li {
   float: left;
 }
 
-ul li a {
+.main-nav ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -31,10 +31,10 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+.main-nav ul li a:hover {
   background-color: #111111;
 }
-ul li img {
+.main-nav ul li img {
   float: right;
 }
 
@@ -73,14 +73,14 @@ ul li img {
 body{
 background-color:powderblue;
 }
-.list li{ 
-list-style-type:disc;
+.center{
+text-align: center;
 }
 
 </style>
 </head>
 <body>
-
+<nav class="main-nav">
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">About</a></li>
@@ -88,6 +88,7 @@ list-style-type:disc;
   <li><a href="#about">Favorite Games</a></li>
   <li>  <img src="https://upload.wikimedia.org/wikipedia/en/0/0f/SonicFrontiersCoverArt.jpg" alt="Sonic" width="50" height="50"></li>
 </ul>
+</nav>
 
 <h2>Welcome To My Website</h2>
 
@@ -98,7 +99,7 @@ list-style-type:disc;
 
 <div>
 <section id="header"> 
-    <h1>Courtland Divinity</h1>
+    <h1 class="center">Courtland Divinity</h1>
 </section>
 <section>
 
@@ -127,10 +128,11 @@ list-style-type:disc;
  
 </section>
 <h1>Games Ideas</h1>
-<ul id="list">
+<ul class="list-style-type:disc;">
   <li>An action adventure game where each level/chapter is a differnet game genre based on the new party member you will meet.</li>
   <li>Fighting game based on giant monsterz where you can use the environment to fight each other with. Ex:(throwing buildings, digging through the ground, leaving lava puddles on the ground). </li>
   <li>A Death Note visual novel game where you can make choices that can change the story in major ways. Ex:( choosing between picking up the Death Note or leaving it).</li>
 </ul> 
 </div>
 </body>
+</html>
